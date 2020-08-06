@@ -1,0 +1,19 @@
+{
+  "name": "ejercicioonready",
+  "version": "1.0.0",
+  "description": "Ejercicio de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabinorf/EjercicioOnready.git"
+  },
+  "author": "Gabino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabinorf/EjercicioOnready/issues"
+  },
+  "homepage": "https://github.com/Gabinorf/EjercicioOnready#readme"
+}
