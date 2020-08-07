@@ -4,7 +4,7 @@
   "description": "Ejercicio de prueba",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "print": "node index.js"
   },
   "repository": {
     "type": "git",

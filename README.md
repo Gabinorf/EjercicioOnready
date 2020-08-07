@@ -24,4 +24,13 @@ Peugeot 206
 Yamaha YBR  
 Honda Titan  
 
+    
+  
+### Recomendaciones
+1- Tener instalado Node.js
+
+### Instrucciones
+1- Clonar el repositorio  
+2- Instalar las dependencias necesarias, especificadas en el archivo package.json  
+3- Desde la terminal ejecutar npm run print
 

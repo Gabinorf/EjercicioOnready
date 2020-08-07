@@ -163,15 +163,15 @@ let imprimir = async () => {
 
     console.log("\n=============================\n");
 
-    let todos = await vehiculos.autos.concat(vehiculos.motos);
-    let caro = await ordenar(todos,1);
+    let todos = await vehiculos.autos.concat(vehiculos.motos);  // array de todos los vehículos 
+    let caro = await ordenar(todos,1);  // array de todos los vehículos ordenados de manera decreciente según su precio
     console.log("Vehículo más caro: "+caro[0].marca+" "+caro[0].modelo);
     
-    let barato = await ordenar(todos,0);
+    let barato = await ordenar(todos,0);    // // array de todos los vehículos ordenados de manera creciente según su precio
     console.log("Vehículo más barato: "+barato[0].marca+" "+barato[0].modelo);
     
-    let letra = await buscarLetra(todos,"y");
-    console.log("Vehículo que contiene la letra 'Y': "+letra[0].marca+" "+letra[0].modelo+" $"+commaNumber(letra[0].precio.toFixed(2).replace(".", ","),'.', ','));
+    let letra = await buscarLetra(todos,"y");   // busca la letra "y" en los modelos de vehículos y devuelve un array
+    console.log("Vehículo que contiene en el modelo la letra 'Y': "+letra[0].marca+" "+letra[0].modelo+" $"+commaNumber(letra[0].precio.toFixed(2).replace(".", ","),'.', ','));
 
     console.log("\n=============================\n");
     
