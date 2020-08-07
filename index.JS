@@ -30,7 +30,7 @@ let vehiculos = {
         {
             marca : "Yamaha",
             modelo : "YBR",
-            puertas : 160,
+            cilindrada : 160,
             precio : 80500.50
         }
     ]
