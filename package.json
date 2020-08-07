@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Gabinorf/EjercicioOnready/issues"
   },
-  "homepage": "https://github.com/Gabinorf/EjercicioOnready#readme"
+  "homepage": "https://github.com/Gabinorf/EjercicioOnready#readme",
+  "dependencies": {
+    "comma-number": "^2.0.1"
+  }
 }
